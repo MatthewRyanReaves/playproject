@@ -1,9 +1,20 @@
 .main {
-   font-family:  'Alfa Slab One';
+font-family:  'Alfa Slab One';
 }
 
 body {
-    background-color:;
+background-color:lightslategray;
+}
+
+header {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    background-color: #5f5d5d57
+    }
+
+.container {
+    
 }
 
 .tracks {
@@ -12,6 +23,35 @@ body {
     right: 20em;
 }   
 
+#siteTitle {
+ float: right;
+ font-size: 24px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 700;
+	padding-top: 31px;
+	padding-bottom: 31px;
+	text-shadow: 2px 2px 1px #0C0C0C;
+nav {
+    float: left;
+}
+
 #onismCover {
-    size: 5em;
+    
+}
+
+#albumTitleContainer {
+    position:relative;
+    top: 50px;
+
+}
+
+#albumCoverandTracksContainer {
+    position:relative;
+    
+    
+}
+
+#ablumCover {
+    max-width: 50%;
 }
