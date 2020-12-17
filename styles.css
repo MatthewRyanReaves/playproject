@@ -1,16 +1,132 @@
-.main {
-font-family:  'Alfa Slab One';
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body {
-background-color:lightslategray;
+    text-align:center;
+}
+
+.wrapper {
+    width:1170px;
+    margin: 0 auto;
 }
 
 header {
-    overflow: hidden;
-    position: absolute;
+    height: 110px;
+    background: #262626;
+    width: 100%;  
+    z-index: 12;
+    position: fixed;
+}
+
+.siteTitle {
+    width: 30%;
+    float: left; 
+    line-height: 100px;
+
+}
+
+.siteTitle a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', 'Open Sans';
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none; 
+    font-family: 'Alfa Slab One', 'Open Sans';
+    letter-spacing: 4px; 
+    font-size: 20px; 
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+.banner-area {
     width: 100%;
-    background-color: #5f5d5d57
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(photayJapan.jpg); 
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*:root {
+    --color-one: #8eaab8;
+    --color-two: #a48eb8;
+    --color-three: #b8b58e;
+    font-family: 'Alfa Slab One', 'Open Sans';
+    background-color: #8eaab8dd;
+} 
+
+#spacer {
+    width: 100%; 
+
+   
+}
+
+.main {
+ 
+}
+
+
+
+body {
+ margin: 0px;
+ padding: 0px;
+}
+
+header {
+ padding: 0px 0em 1em 0px;
+ font-size: 20px;
+ overflow: hidden;
+ position: fixed;
+ width: 100%;
+ max-height: 5%;
+ background-color: var(--color-three);
+ z-index: 2;
     }
 
 .container {
@@ -18,40 +134,66 @@ header {
 }
 
 .tracks {
-    float: right;
-    position: relative;
-    right: 20em;
-}   
+    display: ;
+ float: left;
+ position: sticky;
+ right: 25em;
+ bottom: 20em;
+}  
+
+.headerText {
+    padding: 30px, 50px, 30px, 50px;
+    
+    
+}
 
 #siteTitle {
  float: right;
- font-size: 24px;
-	line-height: 24px;
-	color: #ffffff;
-	font-weight: 700;
-	padding-top: 31px;
-	padding-bottom: 31px;
-	text-shadow: 2px 2px 1px #0C0C0C;
+ font-size: 40px;
+ line-height: 10px;
+ color: var(--color-two);
+ font-weight: 700;
+ padding-right: 50px;
+ text-shadow: 2px 2px 1px #0C0C0C;
+}
+ 
 nav {
-    float: left;
+    
+ float: left;
+}
+nav li {
+    display: inline;
+    float:left;
 }
 
 #onismCover {
+    float:right;
+    display: inline;
+    position: sticky; 
+    left: 5em;
+    bottom: 4em;
+    box-shadow: 10px 20px 10px rgba(22, 21, 17, 0.61);
+    padding: 0px;
+
+
     
 }
 
-#albumTitleContainer {
-    position:relative;
-    top: 50px;
+/*#albumTitleContainer {
 
-}
+ top: 50px;
 
-#albumCoverandTracksContainer {
-    position:relative;
+} */
+
+/*#albumCoverandTracksContainer {
+ position:absolute;
+ left: 40px; 
+ padding: 30px;
     
     
-}
+}*/
 
-#ablumCover {
-    max-width: 50%;
+footer {
+    display: block;
+    text-align: center;
 }
